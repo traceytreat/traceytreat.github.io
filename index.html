@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Tracey Treat">
+		<meta name="description" content="Tracey's Resume">
+		<meta name="keywords" content="Tracey, Prime, Resume">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Resume | Tracey Treat</title>
+
+		<link rel="stylesheet" href="style.css">
+		<script>
+			function getYear() {
+				var date = new Date();
+				var day = date.getDate();
+				var month = date.getMonth() + 1;
+				var year = date.getFullYear();
+
+				document.getElementById("year").innerHTML = "Accessed on " + month + "/" + day + "/"  + year;
+			}
+		</script>
+	</head>
+
+	<body onload="getYear()">
+		<header>
+			<h1>Tracey Treat</h1>
+			16730 Foliage Ave W. <br />
+			Rosemount, MN 55068 <br />
+			(952) 200-5388 <br /><br />
+		</header>
+		<nav>
+			<h1>Table of Contents</h1>
+			<ul>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+				<li>
+					<a href="#work">Work Experience</a>
+				</li>
+				<li>
+					<a href="#volunteer">Volunteer Experience</a>
+				</li>
+				<li>
+					<a href="#other">Other Skills</a>
+				</li>
+			</ul>
+		</nav>
+		<content id= "education">
+			<h1>Education</h1>
+			<h2>Rosemount High School</h2>
+			<h3>Class of 2018</h3>
+			<a href="#top">Back to top</a><br />
+		</content>
+		<content id= "work">
+			<h1>Work Experience</h1>
+			<h2>University of Minnesota CSE-IT</h2>
+			<h3>Infrastructure Student Worker</h3>
+			<h3>Apr. 2021 - Apr. 2022</h3>
+			<ul>
+				<li>
+					Helped maintain and install firmware, iDRAC, and BIOS upgrades on data center machines
+				</li>
+				<li>
+					Automated installations/updates on university machines (staff computers, labs, etc.) using Puppet, Foreman
+				</li>
+				<li>
+					Answered TeamDynamix tickets from staff, faculty, and students
+				</li>
+				<li>
+					Helped with various CSE-IT projects
+				</li>
+				<li>
+					Wrote documentation
+				</li>
+			</ul>
+
+			<a href="#top">Back to top</a><br />
+		</content>
+		<content id= "volunteer">
+			<h1>Volunteer Experience</h1>
+			<h2>Code Savvy</h2>
+			<h3>CoderDojo Mentor</h3>
+			<h3>2014 - present</h3>
+			<h2>Technovation</h2>
+			<h3>Volunteer and Team Mentor</h3>
+			<h3>2015 - present</h3>
+			<h2>Feed My Starving Children</h2>
+			<h3>Volunteer</h3>
+			<h3>2014 - 2019</h3>
+			<h2>Augustana Health Care Center</h2>
+			<h3>Volunteer</h3>
+			<h3>2014</h3>
+			<h2>Martin Luther Care Center</h2>
+			<h3>Volunteer</h3>
+			<h3>2013 - 2014</h3>
+			<a href="#top">Back to top</a><br />
+		</content>
+		<content id ="other">
+			<h1>Other Skills</h1>
+			<h2>Technology</h2>
+			<ul>
+				<li>
+					Experience building computers
+				</li>
+				<li>
+					Experience with CNC router, laser cutter, 3D modeling and fabrication tools
+				</li>
+				<li>
+					Proficient in Microsoft Office Suite and Adobe Creative Suite
+				</li>
+			</ul>
+			<h2>Art and Music</h2>
+			<ul>
+				<li>
+					Studied violin for 8 years with MacPhail
+				</li>
+				<li>
+					Traditional artist (charcoal, pencil, oil and acrylic paint, sculpture)
+				</li>
+				<li>
+					Experience with digital drawing
+				</li>
+				<li>
+					Designed a font
+				</li>
+			</ul>
+			<a href="#top">Back to top</a><br /><br />
+		</content>
+		<footer id ="year">
+		</footer>
+	</body>
+</html>
